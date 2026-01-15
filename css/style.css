@@ -1,0 +1,37 @@
+body {
+scroll-behavior: smooth;
+}
+
+/* Cor padrão do menu */
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Cor ao passar o mouse */
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #2c6ccb; /* escolha a cor que quiser */
+}
+
+.hero {
+height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url('/img/wallpaper-principal.png') center/cover no-repeat;
+color: white;
+}
+
+.hero h1 {
+font-size: 3rem;
+font-weight: bold;
+}
+
+
+.card {
+margin-bottom: 20px;
+transition: transform 0.3s;
+}
+
+
+.card:hover {
+transform: scale(1.05);
+}
